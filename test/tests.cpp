@@ -17,7 +17,7 @@ TEST(PrimeTest, NPrime) {
     EXPECT_EQ(nPrime(1), 2);
     EXPECT_EQ(nPrime(2), 3);
     EXPECT_EQ(nPrime(3), 5);
-    EXPECT_EQ(nPrime(6), 13); 
+    EXPECT_EQ(nPrime(6), 13);
 }
 
 TEST(PrimeTest, NextPrime) {
@@ -40,7 +40,7 @@ TEST(PrimeTest, LargeNextPrime) {
 }
 
 TEST(PrimeTest, LargeSumPrime) {
-    EXPECT_EQ(sumPrime(100), 1060); 
+    EXPECT_EQ(sumPrime(100), 1060);
 }
 
 TEST(PrimeTest, SumPrimesBelowTwoMillion) {
